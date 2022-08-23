@@ -116,7 +116,7 @@ author:
     - label: "Apprentice.io"
       icon: "fas fa-fw fa-link"
       url: "https://apprentice.io"
-    - label: "Private website"
+    - label: "12brolls.com"
       icon: "fas fa-fw fa-link"
       url: "https://12brolls.com"
     - label: "Twitter"
@@ -146,7 +146,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/virbas"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -156,6 +156,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ozeraitis/"
 
 
 # Reading Files

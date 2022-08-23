@@ -66,6 +66,7 @@ And, of course, don’t forget to clean up when you no longer need the recognize
 If you wish - you can handle the full phrase recognition events directly using the `SpeechRecognizer` including hypothesis generation or grammar constraints. Keep in mind that `Windows.Media.SpeechRecognition` is only available for UWP builds. I recommend implementing a very similar routine using `UnityEngine.Windows.Speech` as you’re progressing with your app development in the editor.
 
 If you no longer need to rely on **MRTK’s** speech command subsystem, you should disable it the **MRTK** settings:
+
 *Set “Start Behavior” to “Manual Start” for MRTK 2.x*
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/2022-08-23-overwriting-hololens-speech-commands/mrtk-disable-speech.png)
 {: .full}
