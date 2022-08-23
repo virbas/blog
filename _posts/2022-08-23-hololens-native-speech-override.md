@@ -3,7 +3,7 @@ layout: single
 title: "Overwriting Hololens Speech Commands."
 date: 2022-08-23
 ---
-# Overwriting Hololens Speech Commands.
+
 First a short disclaimer: I’m Linas Ozeraitis, Mixed Reality engineer from Apprentice.io.
 Apprentice is a life science software company that helps life science manufacturers get treatments to patients faster by providing one platform to turn molecules into medicine Our Tempo Manufacturing Cloud platform lets you scale up and out with unprecedented speed and accuracy across all stages of drug production - from preclinical, to clinical and commercial manufacturing. 
 
@@ -37,7 +37,7 @@ Quite simple! Fire up the `Windows.Media.SpeechRecognition.SpeechRecognizer` and
   }
 
   async private void OnDictationComplete(SpeechContinuousRecognitionSession session, SpeechContinuousRecognitionCompletedEventArgs args)
-{
+  {
     if (speechRecognizer != null)
     {
       try {
@@ -47,6 +47,7 @@ Quite simple! Fire up the `Windows.Media.SpeechRecognition.SpeechRecognizer` and
       }
     }
   }
+  
   async private void Cleanup()
   {
     speechRecognizer.ContinuousRecognitionSession.Completed += OnDictationComplete;
@@ -65,13 +66,14 @@ And, of course, don’t forget to clean up when you no longer need the recognize
 If you wish - you can handle the full phrase recognition events directly using the `SpeechRecognizer` including hypothesis generation or grammar constraints. Keep in mind that `Windows.Media.SpeechRecognition` is only available for UWP builds. I recommend implementing a very similar routine using `UnityEngine.Windows.Speech` as you’re progressing with your app development in the editor.
 
 If you no longer need to rely on **MRTK’s** speech command subsystem, you should disable it the **MRTK** settings:
+*Set “Start Behavior” to “Manual Start” for MRTK 2.x*
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/2022-08-23-overwriting-hololens-speech-commands/mrtk-disable-speech.png)
 {: .full}
-{{< caption >}}Set “Start Behavior” to “Manual Start” for MRTK 2.x{{< /caption >}}
 
-
+-----
+*Disable PhraseRecognitionSubsystem for MRTK 3.x*
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/2022-08-23-overwriting-hololens-speech-commands/mrtk3-disable-speech.png)
 {: .full}
-Disable PhraseRecognitionSubsystem for MRTK 3.x
+
 
 
