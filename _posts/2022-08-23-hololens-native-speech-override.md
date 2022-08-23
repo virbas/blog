@@ -2,15 +2,9 @@
 layout: single
 title: "Overwriting Hololens Speech Commands."
 date: 2022-08-23
+comments: true
 ---
 
-First a short disclaimer: I’m Linas Ozeraitis, Mixed Reality engineer from Apprentice.io.
-Apprentice is a life science software company that helps life science manufacturers get treatments to patients faster by providing one platform to turn molecules into medicine Our Tempo Manufacturing Cloud platform lets you scale up and out with unprecedented speed and accuracy across all stages of drug production - from preclinical, to clinical and commercial manufacturing. 
-
-Mixed reality is deeply rooted into our software development and is intended to assist our customers in unique and interactive ways in the laboratory and suite. We currently work with ARCore, RealWear and Hololens technologies.
-I will post a series of articles about some challenges we had to face while developing Hololens apps here at Apprentice and some explanations on how we solved them. Hopefully some of you will find it useful.
-
-## Overwriting Hololens Speech Commands.
 This article is only intended for those who get frustrated by the hololens system commands getting in your way.
 Sources of  frustration:
 - You want to implement your own routines for capturing a photo or video, instead of relying on the built-onHololens version, which is triggered by the verbal command, “Take a picture,” or “Take a video.” Using the phrase,“Take a picture” should execute your code and bypass the Hololens default implementation.
