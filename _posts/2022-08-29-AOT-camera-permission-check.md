@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "AOT camera and microphone permission check"
+title: "Hololens AOT camera and microphone permission check"
 date: 2022-08-29
 comments: true
 ---
