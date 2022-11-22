@@ -4,6 +4,7 @@ title: "Hololens + MRTK 2.x Fingers Menu"
 date: 2022-11-22
 comments: true
 tags: "Hololens MRTK2.x Unity UX"
+published: false
 ---
 
 Before I move on to MRTK3, I thought it would be nice to release this bird into the wild...
