@@ -13,7 +13,6 @@ Behold, the Fingers menu.
 {% include youtube.html id="CRmsXuNiCOs" %}
 
 
-
 That's right - actions literaly at your fingertips. Works really well in cases where you want to have your field of view as clean as possible. No solvers or voice commands. Just flip your palms over and have your buttons ready. Each hand works autonomiously - no more interactions like hold one panel with one hand and click the buttons with the other. During our test sessions we figured out this UX approach works really well. There is no learning curve. Just touch your finger with your thumb..
 
 Go ahead and test it your self https://github.com/virbas/blog-hololens-finger-menu
