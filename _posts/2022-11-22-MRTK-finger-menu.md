@@ -17,7 +17,7 @@ That’s right - actions literally at your fingertips. Works really well in case
 
 [Go ahead and test it your self](https://github.com/virbas/blog-hololens-finger-menu).
 
-----------------------
+
 
 ## How it works
 There are two main .cs scripts:
