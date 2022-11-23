@@ -24,7 +24,7 @@ There are two main .cs scripts:
 - *FingerMenu.cs* is responsible for checking if the hand is flat and facing the camera. Basically a copy-paste from MRTK's hand-menu slover with addition to tracking the thumb and attaching a proximity light to it.
 - *ThumbButton.cs* - positions the button to assigned finger joint and checks the distance of your thumb tip and that assigned finger joint. If the `distance < thumbClickDistanceThreshold` and `itStaysAtThatDistance > clickThreshold`  - rise the click event.
 
-For testing in Unity Editor, you might want to change clone & change the *MixedRealityInputSimulationProfile/Hand Gesture Settings/*
+For testing in Unity Editor, you might want to clone & change the *MixedRealityInputSimulationProfile/Hand Gesture Settings/*
 - Default Hand Gesture = Flat
 - Left Mouse Hand Gesture = "Pinch" 
 
