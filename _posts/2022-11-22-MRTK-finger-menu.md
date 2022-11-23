@@ -25,7 +25,7 @@ There are two main .cs scripts:
 - *ThumbButton.cs* - positions the button to assigned finger joint and checks the distance of your thumb tip and that assigned finger joint. If the `distance < thumbClickDistanceThreshold` and `itStaysAtThatDistance > clickThreshold`  - rise the click event.
 
 For testing in Unity Editor, you might want to clone & change the *MixedRealityInputSimulationProfile/Hand Gesture Settings/*
-- Default Hand Gesture = Flat
+- Default Hand Gesture = "Flat"
 - Left Mouse Hand Gesture = "Pinch" 
 
 ## Next Steps
